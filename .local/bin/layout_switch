@@ -1,0 +1,16 @@
+#!/bin/zsh
+# LICENSE: PUBLIC DOMAIN
+# switch between my layouts
+
+layout=$(setxkbmap -query | awk '/layout/{print $2}')
+case $layout in
+    ru)
+        setxkbmap ge
+        ;;
+    us)
+        setxkbmap ru
+        ;;
+    *)
+        setxkbmap us
+        ;;
+esac

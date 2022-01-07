@@ -1,0 +1,7 @@
+# Это файл конфигурации пользователя Git.
+[user]
+# Пожалуйста, адаптируйте и раскомментируйте следующие строки:
+	user = alexmozaidze
+	email = alexman2622@gmail.com
+[init]
+	defaultBranch = main

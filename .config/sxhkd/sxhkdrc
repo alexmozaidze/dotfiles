@@ -1,0 +1,79 @@
+ctrl + shift + x
+    pkill sxhkd && sxhkd
+
+ctrl + shift + Return
+    alacritty
+
+ctrl + shift + t
+    alacritty -o shell.program=tmux
+
+ctrl + shift + i
+    chromium
+
+ctrl + shift + p
+    dmenu_run
+
+ctrl + shift + s
+    scrot
+
+######### Herbstluftwm #########
+
+#super + Tab
+#    layout_switch
+#
+#super + {h,j,k,l}
+#    herbstclient focus {left,down,up,right}
+#
+#super + shift + {h,j,k,l}
+#    herbstclient shift {left,down,up,right}
+#
+#super + q
+#    herbstclient quit
+#
+#super + r
+#    herbstclient reload
+#
+#super + c
+#    herbstclient close
+#
+#super + {u,o}
+#    herbstclient split {bottom,right}
+#
+#super + ctrl + space
+#    herbstclient split explode
+#
+#super + alt + {h,j,k,l}
+#    herbstclient resize {left,down,up,right} 0.02
+#
+#super + shift + {1,2,3,4}
+#    herbstclient move_index {0,1,2,3}
+#
+#super + {1,2,3,4}
+#    herbstclient use_index {0,1,2,3}
+#
+#super + d
+#    herbstclient remove
+#
+#super + s
+#    herbstclient floating toggle
+#
+#super + f
+#    herbstclient fullscreen toggle
+#
+#super + shift + f
+#    herbstclient set_attr clients.focus.floating toggle
+#
+#super + shift + m
+#    herbstclient set_attr clients.focus.minimized true
+#
+#super + ctrl + m
+#    herbstclient jumpto last-minimized
+#
+#super + space
+#    herbstclient or , and . compare tags.focus.curframe_wcount = 2 . cycle_layout +1 vertical horizontal max vertical grid , cycle_layout +1
+#
+#super + {comma,period}
+#    herbstclient use_index {-1,+1} --skip-visible
+
+#XF86AudioMute
+    

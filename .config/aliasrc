@@ -1,0 +1,38 @@
+#!/bin/env sh
+
+# Default options for programs' aliases
+LS_DEFAULT_OPTIONS="--group-directories-first --color=always"
+
+# Nvim and Vim aliases
+alias nvim="nvim"
+alias erc="nvim ~/.config/nvim/init.vim"
+
+# Emacs alias
+alias emacs="emacs -nw"
+
+# Aliases for ls and exa commands
+alias ls="exa ${LS_DEFAULT_OPTIONS}"
+alias la="exa -a ${LS_DEFAULT_OPTIONS}"
+alias ll="exa -alg ${LS_DEFAULT_OPTIONS}"
+
+# Alias for "grep" command
+alias grep="rg -p"
+
+alias java="_JAVA_AWT_WM_NONREPARENTING=1 java"
+alias cat="bat"
+alias bc="bc -q"
+
+# Alias for massive renaming
+alias bulk-rename="qmv -f do"
+
+# Alias for showing time
+alias dtime="date +\"%R:%S\""
+
+alias config='git --git-dir=$HOME/git/dotfiles --work-tree=$HOME'
+
+# Aliases for openrc-init
+#alias reboot="sudo openrc-shutdown -r now"
+#alias halt="sudo openrc-shutdown -H now"
+#alias shutdown="sudo openrc-shutdown"
+#alias poweroff="sudo openrc-shutdown -p now"
+
